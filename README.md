@@ -8,7 +8,7 @@ This project is designed to help you make your own projects that interact with t
 ## Getting started
 
 ```javascript
-  import { BinanceApi } from '@nikita_isay/binance-api-client';
+  import { BinanceApi } from '@mykyta-isai/binance-api-client';
 
   const apiClient = new BinanceApi({
     enableTestnet: false,
