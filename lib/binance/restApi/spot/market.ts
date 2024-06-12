@@ -81,7 +81,7 @@ export class BinanceSpotMarketApi extends BinanceApiClient {
     try {
       const res = await this.publicRequest({
         method: RequestType.GET,
-        path: "/api/v3/depth",
+        path: "/api/v3/trades",
         params: options,
       });
       return res.data;
